@@ -1,4 +1,4 @@
-# Makefile for Yahoo.pm
+# Makefile for MoneyNetSymbolLookup.pm
 #
 #    Copyright (C) 1998 Dj Padzensky <djpadz@padz.net>
 #
@@ -22,7 +22,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
 	'NAME'		=> 'Finance::MoneyNetSymbolLookup',
-	'VERSION'	=> '0.01',
+	'VERSION'	=> '0.02',
 	'dist'		=> { COMPRESS => 'gzip',
 			     SUFFIX => '.gz', 
 			   },

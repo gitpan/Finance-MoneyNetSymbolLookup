@@ -27,7 +27,7 @@ use vars qw($VERSION @EXPORT @ISA $URL);
 use LWP::UserAgent;
 use HTTP::Request::Common;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 $URL = ("http://www.moneynet.com/data/EQUIS/rawlookup/lookup.asp?NAME=");
 @ISA = qw(Exporter);
 @EXPORT = qw(&symbollookup);
@@ -86,8 +86,8 @@ the Free Software Foundation; either version 2 of the License, or (at
 your option) any later version.
 
 The information that you obtain with this library may be copyrighted
-by Yahoo! Inc., and is governed by their usage license.  See
-http://www.yahoo.com/docs/info/gen_disclaimer.html for more
+by Reuters, Inc., and is governed by their usage license.  See
+http://www.moneynet.com/home/MONEYNET/info/moneynetcopyright.asp for more
 information.
 
 =head1 AUTHOR
